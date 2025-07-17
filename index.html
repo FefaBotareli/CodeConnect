@@ -57,21 +57,18 @@
             <form id="formulario">
                 <div class="input-container">
                     <label for="titulo">Nome do Projeto</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name" >
                 </div>
                 <div class="input-container">
                     <label for="descricao">Descrição</label>
-                    <textarea id="descricao" name="descricao" rows="4" required></textarea>
+                    <textarea id="descricao" name="descricao" rows="4" ></textarea>
                 </div>
                 <div class="input-container">
                     <label for="tags">Tags</label>
-                    <input type="text" id="tags" name="tags" placeholder="Ex: javascript, html, css" required>
+                    <input type="text" id="input-tags" name="tags" placeholder="Ex: javascript, html, css">
                 </div>
-                <ul class="lista-tags">
-                        <li>
-                                <p>Front-end</p>
-                                <img src="./img/close-black.svg">
-                        </li>
+                <ul class="lista-tags" id="lista-tags">
+                       
                 </ul>
                 <div class="container-botoes">
                   <button type="reset" class="btn-descartar">Descartar</button>
